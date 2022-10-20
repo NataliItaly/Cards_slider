@@ -3,7 +3,7 @@ const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 
 function slidesPluggin(activeSlide) {
-  slides[activeSlide].classList.add("active");
+  slides[0].classList.add("active");
 
   let activeIndex = activeSlide;
 

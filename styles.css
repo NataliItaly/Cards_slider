@@ -70,3 +70,13 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
+
+@media (max-width: 440px) {
+  .slider-wrapper {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .slide {
+    margin: 5px;
+  }
+}
