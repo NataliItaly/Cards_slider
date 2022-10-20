@@ -30,6 +30,16 @@ body {
   font-size: 24px;
   padding: 10px 20px;
   cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.slider-btn:focus-visible {
+  outline: none;
+}
+
+.slider-btn:hover {
+  background-color: #328335;
 }
 
 .slider-wrapper {
@@ -72,6 +82,18 @@ body {
 }
 
 @media (max-width: 440px) {
+  .container {
+    padding: 10px 0;
+  }
+  .buttons-wrapper {
+    width: 100vw;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+  .slider-btn {
+    padding: 10px 15px;
+    transform: rotate(90deg);
+  }
   .slider-wrapper {
     flex-direction: column;
     height: 80vh;
